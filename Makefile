@@ -6,12 +6,12 @@ js_npm_install_marker = streamlit_cookies_manager/node_modules/.package-lock.jso
 
 build: streamlit_cookies_manager/build/index.html sdist wheels
 
-sdist: dist/streamlit-cookies-manager-$(version).tar.gz
+sdist: dist/gitarplater-streamlit-cookies-manager--$(version).tar.gz
 wheels: dist/streamlit_cookies_manager-$(version)-py3-none-any.whl
 
 js: streamlit_cookies_manager/build/index.html
 
-dist/streamlit-cookies-manager-$(version).tar.gz: $(python_sources) js
+dist/gitarplater-streamlit-cookies-manager--$(version).tar.gz: $(python_sources) js
 	poetry build -f sdist
 
 dist/streamlit_cookies_manager-$(version)-py3-none-any.whl: $(python_sources) js

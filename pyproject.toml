@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "streamlit-cookies-manager"
+name = "gitarplater-streamlit-cookies-manager"
 version = "0.2.0"
 description = "Access and save cookies from Streamlit"
 authors = ["Tomasz Kontusz <tomasz.kontusz@gmail.com>"]

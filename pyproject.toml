@@ -7,9 +7,14 @@ license = "Apache-2.0"
 
 readme = "README.md"
 
+packages = [
+    { include = "streamlit-cookies-manager" }
+]
+
 include = [
     "streamlit_cookies_manager/build/**/*",
 ]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
